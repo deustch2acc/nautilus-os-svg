@@ -7,7 +7,7 @@
       <script>
         const params = new URLSearchParams(window.location.search);
         params.set("t", Date.now());
-        const safeUrl = "https://cdn.jsdelivr.net/gh/nautilus-os/gust@main/index.html" + "?" + params.toString();
+        const safeUrl = "https://cdn.jsdelivr.net/gh/nautilus-os/NautilusOS@main/NautilusOS-OneFile/index.html" + "?" + params.toString();
         let l = `
         \x3Cscript>
         launch();
